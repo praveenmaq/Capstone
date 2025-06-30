@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ecomm Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d60b0d4c6ad0ca27358e3bc07e565a483065377")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ecomm Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ecomm Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

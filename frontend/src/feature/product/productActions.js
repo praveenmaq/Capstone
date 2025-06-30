@@ -9,7 +9,6 @@ export const fetchProducts = createAsyncThunk(
   async (params = {}, { rejectWithValue }) => {
     try {
       const { query, filters, sort } = params;
-
       // Build query parameters object
       const queryParams = new URLSearchParams();
 
