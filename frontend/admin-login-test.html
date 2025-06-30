@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Login & Test</title>
+</head>
+
+<body>
+    <h1>Admin Login & Product Test</h1>
+
+    <div id="loginSection">
+        <h2>Step 1: Login as Admin</h2>
+        <input type="email" id="email" placeholder="Email" value="admin@admin.com">
+        <input type="password" id="password" placeholder="Password" value="admin123">
+        <button onclick="loginAsAdmin()">Login as Admin</button>
+        <div id="loginOutput"></div>
+    </div>
+
+    <div id="testSection" style="display: none;">
+        <h2>Step 2: Test Product Creation</h2>
+        <button onclick="testProductCreation()">Test Add Product</button>
+        <div id="testOutput"></div>
+    </div>
+
+    <script>
+        const backendURL = 'http://localhost:5252';
+
+        async function loginAsAdmin() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const loginOutput = document.getElementById('loginOutput');
+
+            loginOutput.innerHTML = '<p>Logging in...</p>';
+
+            try {
+                const response = await fetch(`${backendURL}/api/Auth/login`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        password: password
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Store the token (note: backend returns 'userToken' not 'token')
+                    localStorage.setItem('token', data.userToken);
+
+                    // Decode token to show user info
+                    const payload = JSON.parse(atob(data.userToken.split('.')[1]));
+                    const role = payload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+                    const userId = payload['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'];
+
+                    loginOutput.innerHTML = `
+                        <p style="color: green;"><strong>Login Successful!</strong></p>
+                        <p><strong>User ID:</strong> ${userId}</p>
+                        <p><strong>Role:</strong> ${role}</p>
+                        <p><strong>Backend Role:</strong> ${data.userDetail.role}</p>
+                        <p><strong>Token:</strong> ${data.userToken.substring(0, 50)}...</p>
+                    `;
+
+                    if (role === 'Admin') {
+                        document.getElementById('testSection').style.display = 'block';
+                        loginOutput.innerHTML +=
+                            '<p style="color: green;"><strong>✅ Admin access confirmed!</strong></p>';
+                    } else {
+                        loginOutput.innerHTML +=
+                            '<p style="color: red;"><strong>❌ User is not an admin!</strong></p>';
+                    }
+                } else {
+                    const errorText = await response.text();
+                    loginOutput.innerHTML =
+                    `<p style="color: red;"><strong>Login Failed:</strong> ${errorText}</p>`;
+                }
+            } catch (error) {
+                loginOutput.innerHTML = `<p style="color: red;"><strong>Login Error:</strong> ${error.message}</p>`;
+            }
+        }
+
+        async function testProductCreation() {
+            const testOutput = document.getElementById('testOutput');
+            const token = localStorage.getItem('token');
+
+            if (!token) {
+                testOutput.innerHTML = '<p style="color: red;">No token found. Please login first.</p>';
+                return;
+            }
+
+            testOutput.innerHTML = '<p>Testing product creation...</p>';
+
+            try {
+                const testProduct = {
+                    name: "Debug Test Product",
+                    description: "This is a test product created during debugging",
+                    price: 99.99,
+                    imageUrl: "https://res.cloudinary.com/dy8zltclr/image/upload/v1750960785/product-categories/zfmcigjrjtjuvemcwrsi.jpg",
+                    categoryId: 1,
+                    brand: "Debug Brand",
+                    stockQuantity: 5
+                };
+
+                console.log('Sending product data:', testProduct);
+                console.log('Using token:', token.substring(0, 50) + '...');
+
+                const response = await fetch(`${backendURL}/api/Products`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(testProduct)
+                });
+
+                console.log('Response status:', response.status);
+                console.log('Response headers:', [...response.headers.entries()]);
+
+                if (response.ok) {
+                    const data = await response.json();
+                    testOutput.innerHTML = `
+                        <p style="color: green;"><strong>✅ Product Creation Successful!</strong></p>
+                        <p><strong>Product ID:</strong> ${data.id}</p>
+                        <p><strong>Product Name:</strong> ${data.name}</p>
+                        <p><strong>Price:</strong> $${data.price}</p>
+                        <p><strong>Brand:</strong> ${data.brand}</p>
+                        <p><strong>Stock:</strong> ${data.stockQuantity}</p>
+                        <p style="color: green;"><strong>🎉 The admin product creation is working!</strong></p>
+                    `;
+                } else {
+                    const errorText = await response.text();
+                    testOutput.innerHTML = `
+                        <p style="color: red;"><strong>❌ Product Creation Failed</strong></p>
+                        <p><strong>Status:</strong> ${response.status}</p>
+                        <p><strong>Error:</strong> ${errorText}</p>
+                    `;
+
+                    // If 401, show auth problem
+                    if (response.status === 401) {
+                        testOutput.innerHTML +=
+                            '<p style="color: orange;"><strong>This is an authentication/authorization issue.</strong></p>';
+                    }
+                }
+            } catch (error) {
+                testOutput.innerHTML =
+                `<p style="color: red;"><strong>Request Error:</strong> ${error.message}</p>`;
+                console.error('Product creation error:', error);
+            }
+        }
+
+        // Check if already logged in on page load
+        window.onload = function () {
+            const token = localStorage.getItem('token');
+            if (token) {
+                try {
+                    const payload = JSON.parse(atob(token.split('.')[1]));
+                    const role = payload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+
+                    if (role === 'Admin') {
+                        document.getElementById('loginOutput').innerHTML =
+                            '<p style="color: green;">Already logged in as admin!</p>';
+                        document.getElementById('testSection').style.display = 'block';
+                    }
+                } catch (e) {
+                    // Invalid token, clear it
+                    localStorage.removeItem('token');
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>

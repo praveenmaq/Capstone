@@ -1,0 +1,671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Data\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Data\\DataContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\Review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Interfaces\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\ProductsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\ProductsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Product\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\Product\\ProductDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\SubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\SubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612113347_AddWishlistTable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612112657_AddWishlistTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611061011_Update subscriptiion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611055754_Update user model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250610104509_Update order model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IOrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Interfaces\\IOrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\OrderController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Order\\OrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\Order\\OrderDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\Wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\UploadImageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\UploadImageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\SubscriptionContoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\SubscriptionContoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Models\\Subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CloudinaryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\CloudinaryService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Services\\CartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Interfaces\\ICartService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ISubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Interfaces\\ISubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\FileUploadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\FileUploadDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Review.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:37:17.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\ProductService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\ProductService.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAN4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:07:42.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Ecomm Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.json",
+              "RelativeToolTip": "Ecomm Backend\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T06:19:01.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:02:58.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:06:35.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Ecomm Backend\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\appsettings.Development.json",
+              "RelativeToolTip": "Ecomm Backend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T06:18:59.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Data\\DataContext.cs",
+              "RelativeToolTip": "Ecomm Backend\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:00:16.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Product.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:29:51.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Product\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\Product\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Product\\ProductDto.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\Product\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T07:01:56.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\SubscriptionService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\SubscriptionService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\SubscriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:26:05.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\OrderService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\OrderService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAgwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:34:13.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAhwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:34:39.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:33:47.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Order.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:01:50.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\AuthService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwEAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:30:41.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Program.cs",
+              "RelativeToolTip": "Ecomm Backend\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:33:30.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Order\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\Order\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Order\\OrderDto.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\Order\\OrderDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:33:13.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Wishlist.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:42:01.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250612113347_AddWishlistTable1.cs",
+              "DocumentMoniker": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612113347_AddWishlistTable1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612113347_AddWishlistTable1.cs",
+              "ToolTip": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612113347_AddWishlistTable1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612113347_AddWishlistTable1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:33:47.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\User.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:10:07.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\CartItem.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:01:36.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADgv0wAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:33:03.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UploadImageController.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\UploadImageController.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\UploadImageController.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\UploadImageController.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\UploadImageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:40:46.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250612112657_AddWishlistTable.cs",
+              "DocumentMoniker": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612112657_AddWishlistTable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612112657_AddWishlistTable.cs",
+              "ToolTip": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612112657_AddWishlistTable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250612112657_AddWishlistTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T11:26:57.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SubscriptionContoller.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\SubscriptionContoller.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\SubscriptionContoller.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\SubscriptionContoller.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\SubscriptionContoller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:26:51.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Models\\Subscription.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Models\\Subscription.cs",
+              "RelativeToolTip": "Ecomm Backend\\Models\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T06:02:01.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\CloudinaryService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CloudinaryService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\CloudinaryService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:06:02.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Ecomm Backend\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:32:13.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Services\\CartService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Services\\CartService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:31:41.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:31:10.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ISubscriptionService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ISubscriptionService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Interfaces\\ISubscriptionService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\ISubscriptionService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Interfaces\\ISubscriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:25:27.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250611061011_Update subscriptiion.cs",
+              "DocumentMoniker": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611061011_Update subscriptiion.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611061011_Update subscriptiion.cs",
+              "ToolTip": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611061011_Update subscriptiion.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611061011_Update subscriptiion.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:10:11.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\CartItem\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:28:07.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SubscriptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\Subscription\\SubscriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T09:23:18.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250611055754_Update user model.cs",
+              "DocumentMoniker": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611055754_Update user model.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611055754_Update user model.cs",
+              "ToolTip": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611055754_Update user model.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250611055754_Update user model.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T05:57:54.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250610104509_Update order model.cs",
+              "DocumentMoniker": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250610104509_Update order model.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250610104509_Update order model.cs",
+              "ToolTip": "C:\\Users\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250610104509_Update order model.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\BaljinderSinghMAQSof\\OneDrive - MAQ Software\\Frontend 101\\Capstone\\Ecomm Backend\\Ecomm Backend\\Migrations\\20250610104509_Update order model.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:45:09.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Ecomm Backend\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T05:31:04.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Ecomm Backend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Ecomm Backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-09T07:05:10.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FileUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\FileUploadDto.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\FileUploadDto.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\FileUploadDto.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\FileUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T07:14:44.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\Auth\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:26:22.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\VaibhavSinglaMAQSoft\\Desktop\\Frontend COE 101\\Ecomm Backend\\Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "RelativeToolTip": "Ecomm Backend\\DTOs\\Auth\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T05:26:12.121Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

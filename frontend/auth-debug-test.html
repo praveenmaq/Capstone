@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Auth Debug Test</title>
+</head>
+
+<body>
+    <h1>Admin Auth Debug Test</h1>
+    <button onclick="runTest()">Test Admin Authentication</button>
+    <div id="output"></div>
+
+    <script>
+        // Quick test to check if admin user is logged in and has the right token
+        const backendURL = 'http://localhost:5252';
+
+        function getToken() {
+            return localStorage.getItem('token');
+        }
+
+        async function testAdminAuth() {
+            const outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = '<p>Testing...</p>';
+
+            const token = getToken();
+            console.log('Current token:', token);
+
+            if (!token) {
+                outputDiv.innerHTML = '<p style="color: red;">No token found. Please login first.</p>';
+                return;
+            }
+
+            let output = '<h3>Auth Debug Results:</h3>';
+
+            // Decode token to see claims (just for debugging)
+            try {
+                const payload = JSON.parse(atob(token.split('.')[1]));
+                console.log('Token payload:', payload);
+
+                const role = payload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
+                const userId = payload['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'];
+
+                output += `<p><strong>User ID:</strong> ${userId}</p>`;
+                output += `<p><strong>User Role:</strong> ${role}</p>`;
+
+                if (role !== 'Admin') {
+                    output += '<p style="color: red;"><strong>ERROR:</strong> User is not an Admin!</p>';
+                }
+            } catch (e) {
+                output += '<p style="color: red;">Error decoding token: ' + e.message + '</p>';
+            }
+
+            // Test add product endpoint with dummy data
+            try {
+                const testProduct = {
+                    name: "Test Product",
+                    description: "Test Description",
+                    price: 99.99,
+                    imageUrl: "https://example.com/test.jpg",
+                    categoryId: 1,
+                    brand: "Test Brand",
+                    stockQuantity: 10
+                };
+
+                const response = await fetch(`${backendURL}/api/Products`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(testProduct)
+                });
+
+                output += `<p><strong>Add Product Response Status:</strong> ${response.status}</p>`;
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    output += `<p style="color: red;"><strong>Add Product Error:</strong> ${errorText}</p>`;
+                } else {
+                    const data = await response.json();
+                    output +=
+                        `<p style="color: green;"><strong>Add Product Success:</strong> Product created with ID ${data.id}</p>`;
+                }
+            } catch (error) {
+                output += `<p style="color: red;"><strong>Add Product Request Error:</strong> ${error.message}</p>`;
+            }
+
+            outputDiv.innerHTML = output;
+        }
+
+        function runTest() {
+            testAdminAuth();
+        }
+    </script>
+</body>
+
+</html>
