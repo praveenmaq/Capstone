@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
+import backendURL from "../../../const"
 
-const backendURL = "http://localhost:5252";
 export const getToken = () => localStorage.getItem("userToken") || "";
 
 // export const token = localStorage.getItem("userToken") || "";

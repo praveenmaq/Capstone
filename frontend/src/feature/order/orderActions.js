@@ -1,8 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { useSelector } from "react-redux";
 import { getToken } from "../admin/adminActions";
-
-const backendURL = "http://localhost:5252";
+import backendURL from "../../../const.js"
 export const ProceedToCheckout = createAsyncThunk(
   // POST request to /api/Order to place a new order
   // payMethod: Payment method (passed as a number), address: Delivery address for the order.

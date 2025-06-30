@@ -1,7 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getToken } from "../admin/adminActions";
-
-const backendURL = "http://localhost:5252";
+import backendURL from "../../../const"
 
 export const fetchCart = createAsyncThunk(
   "/fetchcart",

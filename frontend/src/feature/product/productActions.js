@@ -1,8 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import Category from "../../components/Category";
 import { getToken } from "../admin/adminActions";
+import backendURL from "../../../const"
 
-const backendURL = "http://localhost:5252";
 
 export const fetchProducts = createAsyncThunk(
   "/product/fetchProducts",
